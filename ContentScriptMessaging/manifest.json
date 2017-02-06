@@ -1,0 +1,20 @@
+{
+   "author": "gverni",
+   "manifest_version": 2,
+
+   "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "file://*/*"],
+      "js": ["content.js"] 
+   }],
+
+   "browser_action": {
+      "default_title": "Content Script Messaging Popup",
+      "default_popup": "popup.html"
+   },
+
+   "description": "Content Script Messaging sample",
+   "name": "Content Script Messaging",
+   "permissions": [ "activeTab" ],
+   "version": "0.1"
+}
