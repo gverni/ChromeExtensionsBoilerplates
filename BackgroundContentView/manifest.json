@@ -1,0 +1,23 @@
+{
+   "author": "gverni",
+   "manifest_version": 2,
+
+   "background": {
+     "scripts": ["background.js"]
+   },
+
+   "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "file://*/*"],
+      "js": ["content.js"] 
+   }],
+
+   "browser_action": {
+      "default_title": "content_to_view"
+   },
+
+   "description": "Establish communication between a content script and a new tab created by background",
+   "name": "content_to_view",
+   "permissions": [ "activeTab", "tabs", "http://*/*", "https://*/*" ],
+   "version": "0.1"
+}
