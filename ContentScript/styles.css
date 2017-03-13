@@ -1,0 +1,12 @@
+.beautifybtn {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;	
+}

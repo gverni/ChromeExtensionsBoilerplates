@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Beautify Salesforce",
+  "version": "0.1.0",
+  "description": "Beautify Salesforce",
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "css": ["styles.css"],
+    "matches": ["https://qualcomm-cdmatech-support.my.salesforce.com/*"]
+  }]
+
+}
