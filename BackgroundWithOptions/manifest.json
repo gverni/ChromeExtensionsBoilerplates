@@ -1,0 +1,15 @@
+{
+   "author": "gverni",
+   "manifest_version": 2,
+
+   "background": {
+     "scripts": ["background.js"],
+     "persistent": false
+   },
+
+   "options_page": "options.html",
+
+   "description": "Simple Background page with Options",
+   "name": "background",
+   "version": "0.1"
+}
