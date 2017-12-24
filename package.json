@@ -1,0 +1,6 @@
+{
+  "standard": {
+    "globals": [ ],
+    "env": ["browser", "webextensions"]
+  }
+}
