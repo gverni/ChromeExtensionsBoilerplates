@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  
+    "name": "ES6 modules",
+    "description": "Chrome extension using ES6 modules",
+    "version": "0.1",
+
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+
+    "content_scripts": [
+     {
+       "matches": ["http://*/*", "https://*/*", "file://*/*"],
+       "js": ["content.js"]
+    }]
+
+
+}
