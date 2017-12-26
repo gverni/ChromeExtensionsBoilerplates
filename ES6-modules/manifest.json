@@ -5,9 +5,9 @@
     "description": "Chrome extension using ES6 modules",
     "version": "0.1",
 
-    "browser_action": {
-      "default_popup": "popup.html"
-    },
+        "browser_action": {
+          "default_popup": "popup.html"
+        },
 
     "background": {
       "page": "background.html",

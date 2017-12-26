@@ -1,3 +1,3 @@
 export function logMessage (text) {
-  console.log('logMessage (background): ' + text)
+  console.log('logMessage: ' + text)
 }
