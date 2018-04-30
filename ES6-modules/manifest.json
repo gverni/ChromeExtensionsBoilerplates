@@ -17,10 +17,13 @@
     "content_scripts": [
      {
        "matches": ["http://*/*", "https://*/*", "file://*/*"],
-       "js": ["content-module.js", "content.js"]
+       "js": ["content.js"]
     }],
 
-    "permissions": ["storage"]
+    "permissions": ["storage"], 
 
-
+    "web_accessible_resources": [
+      "content-main.js",
+      "content-module.js"
+   ]
 }
